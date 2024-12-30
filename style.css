@@ -3,7 +3,7 @@
 .menulogo{display:inline-block;margin: 0 15px;vertical-align:top}
 
 html{
-  background-color: #101010;
+  background-color: #000000;
   font-family : 'Roboto', Arial, sans-serif;
 }
 
@@ -67,13 +67,14 @@ html{
 }
 
 .haut_page{
-  background-image:url("principal.png");
+  background-image:url("https://grigri307.github.io/site-25/principal.png");
+  background-size: 1900px;
   color: white;
-  padding: 20px;
+  padding: 200px;
 }
 
 .page_tech{
-    background-color: #202020;
+    background-color: #000000;
     overflow: hidden;
     color: white;
     padding: 20px;
@@ -95,7 +96,7 @@ html{
 }
 
  footer{
-  background-color: transparent;
+  background-color: #111111;
   margin: 5px 0;
   color: white;
   text-align: center;
