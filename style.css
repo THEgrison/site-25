@@ -1,0 +1,104 @@
+#menu{margin: 0;}
+.menu_{display:inline-block;margin: 0 15px;vertical-align:top}
+.menulogo{display:inline-block;margin: 0 15px;vertical-align:top}
+
+html{
+  background-color: #101010;
+  font-family : 'Roboto', Arial, sans-serif;
+}
+
+.menu {
+  background-color: black;
+  padding: 5px;
+}
+
+.menulogo {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.menulogo button {
+  background-color: transparent;
+  color: white;
+  border: 1px;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.menulogo button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu_ {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.menu_ button {
+  background-color: transparent; 
+  color: white; 
+  border: 1px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.menu_ button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.class1red {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.class1red button {
+  background-color: red; 
+  color: white;
+  border: 1px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  outline: none; 
+}
+
+.class1red button:hover {
+  background-color: rgba(255, 27, 27, 0.9); 
+}
+
+.haut_page{
+  background-image:url("imgdexemple.jpg");
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+}
+
+.page_tech{
+    background-color: #202020;
+    overflow: hidden;
+    color: white;
+    padding: 20px;
+}
+
+.img{
+    float:left;
+    border-radius:10px 10px;
+}
+
+.imgright {
+    float: right;
+    border-radius:10px 10px;
+}
+
+
+.font_txt{
+    line-height: 2;
+}
+
+ footer{
+  background-color: transparent;
+  margin: 5px 0;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
