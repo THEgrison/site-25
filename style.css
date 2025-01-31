@@ -74,7 +74,7 @@ html{
 
 .class1blue button {
   background-color: rgba(88, 101, 242);
-  border-radius:50px;
+  border-radius:5px;
   color: white;
   border: 1px; 
   padding: 10px 20px; 
@@ -84,7 +84,7 @@ html{
 
 .class1blue button:hover {
   background-color: white;
-  border-radius:50px;
+  border-radius:5px;
   color: rgba(88, 101, 242);
 }
 
@@ -123,8 +123,8 @@ html{
 
 .discord-widget-container {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: left;
+    align-items: left;
     margin-top: 10px;
 }
 
