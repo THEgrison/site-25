@@ -90,6 +90,21 @@ html{
     border-radius:10px 10px;
 }
 
+.discord-section {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.discord-widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 
 .font_txt{
     line-height: 2;
