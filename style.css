@@ -66,6 +66,24 @@ html{
   background-color: rgba(255, 27, 27, 0.9); 
 }
 
+.class1blue {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.class1blue button {
+  background-color: red; 
+  color: white;
+  border: 1px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  outline: none; 
+}
+
+.class1blue button:hover {
+  background-color: rgba(255, 27, 27, 0.9); 
+}
+
 .haut_page{
   background-image:url("principal.png");
   background-size: 1900px;
