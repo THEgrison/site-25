@@ -137,10 +137,25 @@ html{
 
 .discord-widget-container iframe {
     max-width: 100%;
-    width: 500px;
-    height: 300px;
+    height: 400px;
     margin-bottom: 20px; /* Ajouté pour espacer du bouton */
 }
+
+.class1blue button {
+    background-color: #515dde; /* Couleur de fond du bouton */
+    color: white; /* Texte en blanc */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.class1blue button:hover {
+    background-color: #8d97fa; /* Couleur de fond au survol */
+}
+
 
 .font_txt{
     line-height: 2;
