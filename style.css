@@ -101,8 +101,8 @@ html{
 
 .discord-widget-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     margin-top: 10px;
 }
 
