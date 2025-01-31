@@ -81,7 +81,8 @@ html{
 }
 
 .class1blue button:hover {
-  background-color: rgba(113, 124, 243); 
+  background-color: white;
+  color: rgba(88, 101, 242);
 }
 
 .haut_page{
