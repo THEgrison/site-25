@@ -73,7 +73,8 @@ html{
 }
 
 .class1blue button {
-  background-color: rgba(88, 101, 242); 
+  background-color: rgba(88, 101, 242);
+  border-radius:50px;
   color: white;
   border: 1px; 
   padding: 10px 30px; 
@@ -83,6 +84,7 @@ html{
 
 .class1blue button:hover {
   background-color: white;
+  border-radius:50px;
   color: rgba(88, 101, 242);
 }
 
