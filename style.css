@@ -8,14 +8,37 @@ html{
   cursor : auto;
 }
 
-.menu {
-  background-color: black;
-  padding: 5px;
+.menu-container {
+  display: flex; /* Utilise Flexbox pour aligner les éléments sur une ligne */
+  justify-content: space-between; /* Espace entre le logo et le menu */
+  align-items: center; /* Aligne verticalement les éléments */
+  padding: 10px 20px;
 }
 
-.menulogo {
+.logo {
+  flex-shrink: 0; /* Empêche le logo de se rétrécir */
+}
+
+.menu {
+  display: flex; /* Aligne les éléments du menu horizontalement */
+}
+
+.menu_ {
   list-style-type: none;
-  margin: 5px 0;
+  margin: 0 15px;
+}
+
+.menu_ button {
+  background-color: transparent;
+  color: white;
+  border: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.menu_ button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .menulogo button {
@@ -29,26 +52,6 @@ html{
 
 .menulogo button:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  border: 30px;
-}
-
-.menu_ {
-  list-style-type: none;
-  margin: 10px 0;
-}
-
-.menu_ button {
-  background-color: transparent; 
-  color: white; 
-  border: 30px;
-  padding: 10px 20px;
-  cursor: pointer;
-  outline: none;
-}
-
-.menu_ button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 30px;
 }
 
 .class1red {
