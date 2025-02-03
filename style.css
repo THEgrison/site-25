@@ -113,7 +113,7 @@ html{
 }
 
 .discord-section {
-    background: radial-gradient(circle at center, #515dde, #8d97fa);
+    background: radial-gradient(circle at center, #6a74e8, #8d97fa);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 120px rgba(0, 0, 0, 0.5);
@@ -123,25 +123,48 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ajouté pour occuper tout l'espace */
+    height: 100%;
 }
 
 .discord-widget-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%; /* Prend toute la largeur */
-    height: 100%; /* Prend toute la hauteur */
+    height: auto;
+    max-width: 1000px; /* Limite la largeur pour éviter que ça devienne trop large */
 }
 
 .discord-widget-container iframe {
     max-width: 100%;
-    height: 800px;
-    margin-bottom: 20px; /* Ajouté pour espacer du bouton */
+    height: 500px; /* Ajusté la hauteur */
+    margin-right: 20px; /* Ajout d'un espacement entre l'iframe et le texte + bouton */
 }
 
-.class1bluee button {
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px; /* Limite la largeur pour éviter que le texte dépasse trop */
+}
+
+.join-text {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px; /* Espacement entre le texte et le bouton */
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+/* ghlighted-text {
+    color: #44474b;
+    font-weight: bold;
+}
+*/
+
+/* Styles du bouton dans la classe .class1blue */
+.class1blue button {
     background-color: #515dde; /* Couleur de fond du bouton */
     color: white; /* Texte en blanc */
     border: none;
@@ -155,7 +178,6 @@ html{
 .class1blue button:hover {
     background-color: #ffffff; /* Couleur de fond au survol */
 }
-
 
 .font_txt{
     line-height: 2;
