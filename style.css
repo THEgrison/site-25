@@ -21,7 +21,7 @@ html{
 .menulogo button {
   background-color: transparent;
   color: white;
-  border: 1px;
+  border: 30px;
   padding: 10px 10px;
   cursor: pointer;
   outline: none;
@@ -29,6 +29,7 @@ html{
 
 .menulogo button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border: 30px;
 }
 
 .menu_ {
@@ -39,7 +40,7 @@ html{
 .menu_ button {
   background-color: transparent; 
   color: white; 
-  border: 1px;
+  border: 30px;
   padding: 10px 20px;
   cursor: pointer;
   outline: none;
@@ -47,6 +48,7 @@ html{
 
 .menu_ button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border: 30px;
 }
 
 .class1red {
