@@ -55,7 +55,8 @@ html{
 }
 
 .class1red button {
-  border: medium dashed green;
+  background-color: transparent;
+  border: 2px solid white;
   border-radius: 30px;
   color: white;
   border: 1px; 
