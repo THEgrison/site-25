@@ -3,7 +3,7 @@
 .menulogo{display:inline-block;margin: 0 15px;vertical-align:top}
 
 html{
-  background-color: #000000;
+  background: radial-gradient(circle at center, black, #2f2f2f);
   font-family : 'Roboto', Arial, sans-serif;
   cursor : auto;
 }
@@ -105,7 +105,8 @@ html{
 }
 
 .page_tech{
-    background-color: #000000;
+    background-color: transparent;
+    border-radius: 20px;
     overflow: hidden;
     color: white;
     padding: 20px;
@@ -284,4 +285,3 @@ html{
     align-items: center;
     height: 100%;
 }
-
