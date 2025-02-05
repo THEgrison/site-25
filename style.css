@@ -3,8 +3,7 @@
 .menulogo{display:inline-block;margin: 0 15px;vertical-align:top}
 
 html{
-  /*background: radial-gradient(circle at center, #393939 20%, black 70%);*/
-  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+  background: radial-gradient(circle at center, #393939 20%, black 70%);
   font-family : 'Roboto', Arial, sans-serif;
   cursor : auto;
 }
