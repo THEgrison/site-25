@@ -3,7 +3,7 @@
 .menulogo{display:inline-block;margin: 0 15px;vertical-align:top}
 
 html{
-  background: radial-gradient(circle at center, #393939 20%, black 70%);
+  background: black;
   font-family : 'Roboto', Arial, sans-serif;
   cursor : auto;
 }
@@ -275,7 +275,7 @@ html{
 
 
 .quisommesnous-section {
-    background: radial-gradient(circle at center, black 50%, white 100%);
+    background: #1e1f22;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 120px rgba(0, 0, 0, 0.5);
