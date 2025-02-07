@@ -125,7 +125,10 @@ html{
 }
 
 .discord-section {
-    background: radial-gradient(circle at center, #6a74e8, #8d97fa);
+    background: radial-gradient(circle at center, #6a74e8, black);
+    background-size: contain; /* Ajuster l'image à la taille de la section sans déformation */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 120px rgba(0, 0, 0, 0.5);
@@ -287,3 +290,15 @@ html{
     align-items: center;
     height: 100%;
 }
+
+  .wampustest {
+    display: flex;
+    height: 0px;
+    flex-direction: column; /* Arrange les éléments verticalement */
+    align-items: center; /* Centrer les éléments horizontalement */
+    gap: 10px; /* Espace entre les éléments */
+  }
+
+  .wampus {
+    display: block;
+  }
