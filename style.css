@@ -100,8 +100,8 @@ html{
 }
 
 .haut_page{
-  background-image:url("principal.png");
-  background-size: 1900px;
+  background-image:url("imagefond.png");
+  background-size: 100%;
   color: white;
   padding: 200px;
 }
@@ -277,7 +277,7 @@ html{
 }
 
 .quisommesnous-section {
-    background: linear-gradient(90deg, #FFFFFF 0%, #383838 0%, #000000 10%);
+    background: transparent;
     background-size: 400% 400%;
     padding: 20px;
     border-radius: 10px;
