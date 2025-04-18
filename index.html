@@ -1,52 +1,117 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="logowhite.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Floppa Corporation</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="logowhite.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body>
-
-<!-- Hero Banner -->
-<section class="hero">
-  <div class="menu">
-    <div class="logo">
-      <img src="logowhite.png" alt="Floppa Corporation Logo">
+  <!--Menu du site-->
+<div class="menu-container">
+  <!-- Logo -->
+  <div class="logo" align="left">
+    <img src="logowhite.png" alt="Logo" width="40%" height="40%">
+  </div>
+  <!-- Menu -->
+  <div class="menu" align="right">
+    <li class="menu_">
+      <button onclick="window.location.href=''">Home</button>
+    </li>
+    <li class="menu_">
+      <button onclick="window.location.href='https://floppacorporation.miraheze.org/wiki/Accueil'" target="_blank">Wiki</button>
+    </li>
+    <li class="menu_">
+      <button onclick="window.location.href='/'">Recrutement</button>
+    </li>
+    <li class="menulogo">
+      <button onclick="toggleSearch()">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="20" height="20">
+          <path fill="white" d="M15.85 15.153l-5.13-5.13a5.51 5.51 0 1 0-.708.708l5.13 5.13a.507.507 0 0 0 .707 0 .5.5 0 0 0 0-.707zM6.5 11.007a4.5 4.5 0 1 1 4.5-4.5 4.505 4.505 0 0 1-4.5 4.5z"/>
+        </svg>
+      </button>
+    </li>
+    <li class="menulogo">
+      <button onclick="window.location.href = 'login.html';">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 30 30" width="20" height="20">
+          <path fill="white" d="M17.74,30,16,29l4-7h6a2,2,0,0,0,2-2V8a2,2,0,0,0-2-2H6A2,2,0,0,0,4,8V20a2,2,0,0,0,2,2h9v2H6a4,4,0,0,1-4-4V8A4,4,0,0,1,6,4H26a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H21.16Z"/>
+        </svg>
+      </button>
+    </li>
+    <li class="menulogo">
+      <button onclick="window.location.href = 'login.html';">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 17 17" width="20" height="20">
+          <path fill="white" d="M10.7 8.343a4 4 0 1 0-4.4 0A7.51 7.51 0 0 0 1 15.507a.5.5 0 1 0 1 0 6.5 6.5 0 1 1 13 0 .5.5 0 1 0 1 0 7.51 7.51 0 0 0-5.3-7.164zM5.5 5.007a3 3 0 1 1 3 3 3 3 0 0 1-3-3z"/>
+        </svg>
+       </button>
+      </b>
+    </li>
+  </div>
+</div>
+ <!--haut de page-->
+ <!--mettre un image de serveur (a gauche le texte a droite le logo serveur) FOND NOIR-->
+<div class="haut_page">
+  <h2 class="dx-heading-2xl dx-font-weight-lighter dx-pt-2" style="font-size: 27pt; color: white;">Floppa Corporation</h2>
+  <p style="font-size: 10pt; font-family: Courier New;"><i class="font_txt" style="font-size: 17pt;">"l'avenir n'attend que vous"</i></p>
+</div>
+  <!--page principal-->
+<div class="page_tech">
+  <!--qui sommes nous-->
+ <div class="quisommesnous-section">
+   <h2 class="dx-heading-2xl dx-font-weight-lighter dx-pt-2" style="font-size: 17pt; color: white;">Qui sommes nous ?</h2>
+   <p class="font_txt" style="font-size: 15pt;">Floppa Corporation est un groupe dédié au développement de divers jeux sur Roblox, explorant une multitude d'univers et de thème</p>
+   <li class="class1red">
+    <button link="exemple">En savoir plus</button>
+   </li>
+</div>
+  <!--fin qui sommes nous-->
+  <!--site 25-->
+<div class="banniere-section" style="background-image: url('Desktop3.png'); padding: 40px; color: white; text-align: center;">
+    <h2 class="dx-heading-2xl dx-font-weight-lighter dx-pt-2" style="font-size: 17pt;">Site 25</h2>
+    <p class="font_txt" style="font-size: 15pt;">Nous avons développé, au cours des dernières années, Site 25</p>
+    <div class="class1red" style="margin-top: 20px;">
+        <button onclick="window.location.href='google.com'">En savoir plus</button>
+        <button onclick="window.location.href='google.com'"><i class="ion-ios-play"></i>
+        </button>
     </div>
-    <nav class="nav-links">
-      <a href="#">Accueil</a>
-      <a href="#presentation">Présentation</a>
-      <a href="#discord">Discord</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-
-  <div class="hero-content">
-    <h1>Floppa Corporation</h1>
-    <p>"L'avenir n'attend que vous"</p>
-  </div>
-</section>
-
-<!-- Section Présentation -->
-<section id="presentation" class="section">
-  <h2>Qui sommes-nous ?</h2>
-  <p>Floppa Corporation est un groupe dédié au développement de jeux sur Roblox, explorant divers univers et thématiques.</p>
-  <a href="#" class="btn">En savoir plus</a>
-</section>
-
-<!-- Section Discord -->
-<section id="discord" class="section dark-section">
-  <h2>Notre Discord</h2>
-  <p>Rejoignez notre serveur pour discuter, échanger et participer à nos projets !</p>
-  <a href="https://discord.gg/d6GcVyrzrt" class="btn">Rejoindre Discord</a>
-</section>
-
-<!-- Footer -->
-<footer id="contact">
-  <p>© 2025 Floppa Corporation. Tous droits réservés.</p>
-</footer>
-
-</body>
-</html>
+</div>
+<div class="page_tech discord-section">
+   <!-- Information du Discord -->
+   <div class="discord-widget-container">
+      <iframe src="https://discord.com/widget?id=1086058059413065810&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+     <div class="wampustest">
+          <img class="wampus" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f28347027689069a4147e_wumpus.webp" height="50">
+     <img class="wampus" src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/662fa569e650b7bdf2f5d8b4_WUMPUS_LEAN_MOUTH.webp" height="200">  
+     </div>
+      <div class="text-and-button">
+         <p class="join-text">Rejoignez notre serveur Discord pour discuter avec nous !</p>
+         
+         <!-- Bouton dans .class1blue -->
+         <li class="class1blue">
+            <button onclick="window.location.href='https://discord.gg/d6GcVyrzrt'">Rejoindre notre discord</button>
+         </li>
+      </div>
+   </div>
+</div>
+<div class="footer-basic">
+        <footer>
+            <div class="social">
+              <a href="#"><i class="ion-ios-game-controller-b"></i></a>
+              <a href="#"><i class="icon ion-social-instagram"></i></a>
+              <a href="#"><i class="icon ion-social-twitter"></i></a>
+              <a href="#"><i class="ion-social-youtube"></i></a>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="">Accueil</a></li>
+                <li class="list-inline-item"><a href="about.html" target="_blank">A propos</a></li>
+                <li class="list-inline-item"><a href="terms_of_service.html" target="_blank">Terms</a></li>
+                <li class="list-inline-item"><a href="privacy_policy.html" target="_blank">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Floppa Corporation © 2025</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</div>
